@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>c00lkiddtech</title>
+  <style>
+    /* Centers the 1920x1080 frame on the screen and styles the background */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: auto;
+    }
+    
+    /* Enforces strict 1920x1080 hardware dimensions */
+    .frame-container {
+      width: 1920px;
+      height: 1080px;
+      box-sizing: border-box;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="frame-container">
+    <iframe 
+      src="https://c00lkiddtech.live/jetstream" 
+      sandbox="allow-downloads allow-downloads-without-user-activation allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation allow-top-navigation-by-user-activation allow-top-navigation-to-custom-protocols"
+      allow="accelerometer *; ambient-light-sensor *; autoplay *; battery *; camera *; display-capture *; document-domain *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; layout-animations *; legacy-image-formats *; magnetometer *; microphone *; midi *; oversized-images *; payment *; picture-in-picture *; publickey-credentials-get *; screen-wake-lock *; sync-xhr *; usb *; vr *; web-share *; xr-spatial-tracking *"
+      allowfullscreen="true">
+    </iframe>
+  </div>
+
+</body>
+</html>
